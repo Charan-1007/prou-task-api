@@ -120,7 +120,6 @@ _For all these requests, you must go to the **Headers** tab in Postman and add:_
   - **Method:** `GET`
   - **URL:** `http://localhost:3000/tasks?employeeId=1`
 
-> Note: the implementation expects the query parameter `employee_id` (with underscore). If you use `employeeId` in Postman, it will not filter — use `employee_id=1`.
 
 ## Assumptions Made
 
