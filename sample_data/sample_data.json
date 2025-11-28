@@ -1,0 +1,41 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@example.com",
+      "role": "Developer",
+      "password": "hashed_password_1"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "role": "Manager",
+      "password": "hashed_password_2"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Implement API",
+      "description": "Develop the RESTful API for task management.",
+      "status": "In Progress",
+      "employee_id": 1
+    },
+    {
+      "id": 2,
+      "title": "Design Database Schema",
+      "description": "Create the database schema for the application.",
+      "status": "Completed",
+      "employee_id": 2
+    },
+    {
+      "id": 3,
+      "title": "Write Documentation",
+      "description": "Document the API endpoints and usage.",
+      "status": "Pending",
+      "employee_id": 1
+    }
+  ]
+}
