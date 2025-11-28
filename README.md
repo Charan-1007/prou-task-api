@@ -18,7 +18,7 @@ This project is a Task Management API designed for managing employees and tasks 
 1. Clone the repository:
 
    ```
-   git clone <repository-url>
+   git clone <https://github.com/Charan-1007/prou-task-api.git>
    cd prou-task-api
    ```
 
@@ -128,6 +128,3 @@ _For all these requests, you must go to the **Headers** tab in Postman and add:_
 - The application does not implement advanced error handling for simplicity.
 - The JWT token is required for creating and updating tasks, while viewing tasks is public.
 
-## Testing
-
-A Postman collection is provided in the `tests/postman_collection.json` file for testing the API endpoints.
